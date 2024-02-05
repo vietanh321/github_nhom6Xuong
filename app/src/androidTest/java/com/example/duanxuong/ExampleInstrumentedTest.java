@@ -1,4 +1,4 @@
-package fpoly.thanhndph45160.nhom6_quanlithuchi;
+package com.example.duanxuong;
 
 import android.content.Context;
 
@@ -21,6 +21,6 @@ public class ExampleInstrumentedTest {
     public void useAppContext() {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getInstrumentation().getTargetContext();
-        assertEquals("fpoly.thanhndph45160.nhom6_quanlithuchi", appContext.getPackageName());
+        assertEquals("com.example.duanxuong", appContext.getPackageName());
     }
 }

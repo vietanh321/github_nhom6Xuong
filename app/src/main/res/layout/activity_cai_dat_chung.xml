@@ -1,0 +1,490 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CaiDatChung"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/khung2"
+        android:elevation="10dp"
+        android:gravity="center|start"
+        android:orientation="horizontal"
+        android:translationZ="10dp">
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/white"
+            android:src="@drawable/icons8_double_30" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_marginLeft="80dp"
+            android:gravity="center"
+            android:text="Cài đặt chung"
+            android:textSize="22dp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingHorizontal="10dp">
+        <LinearLayout
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@drawable/khung5">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:background="@drawable/khung5"
+                android:paddingHorizontal="19dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:text="Chi phí cố định và thu nhập định kì"
+                    android:textSize="16dp"
+                    android:textColor="#FFC107"/>
+
+                <ImageButton
+                    android:layout_width="21dp"
+                    android:layout_height="15dp"
+                    android:layout_marginTop="6dp"
+                    android:backgroundTint="@color/white"
+                    android:src="@drawable/icons8_next_50" />
+            </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal"
+            android:background="@drawable/khung5"
+            android:paddingHorizontal="19dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:text="Thêm danh mục"
+                android:textSize="16dp"
+                android:textColor="#FFC107"/>
+
+            <ImageButton
+                android:layout_width="21dp"
+                android:layout_height="15dp"
+                android:layout_marginTop="6dp"
+                android:backgroundTint="@color/white"
+                android:src="@drawable/icons8_next_50" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingHorizontal="10dp">
+        <LinearLayout
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@drawable/khung5">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:background="@drawable/khung5"
+                android:paddingHorizontal="19dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:text="Thiết lập số dư ban đầu"
+                    android:textSize="16dp"
+                    android:textColor="#FFC107"/>
+
+                <ImageButton
+                    android:layout_width="21dp"
+                    android:layout_height="15dp"
+                    android:layout_marginTop="6dp"
+                    android:backgroundTint="@color/white"
+                    android:src="@drawable/icons8_next_50" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal"
+                android:background="@drawable/khung5"
+                android:paddingHorizontal="19dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:text="Hiển thị số dư đầu kì trên lịch"
+                    android:textSize="16dp"
+                    android:textColor="#FFC107"/>
+
+                <ImageButton
+                    android:layout_width="21dp"
+                    android:layout_height="15dp"
+                    android:layout_marginTop="6dp"
+                    android:backgroundTint="@color/white"
+                    android:src="@drawable/icons8_next_50" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal"
+                android:background="@drawable/khung5"
+                android:paddingHorizontal="19dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:text="Hiển thị số dư đầu kì trên bá..."
+                    android:textSize="16dp"
+                    android:textColor="#FFC107"/>
+
+                <ImageButton
+                    android:layout_width="21dp"
+                    android:layout_height="15dp"
+                    android:layout_marginTop="6dp"
+                    android:backgroundTint="@color/white"
+                    android:src="@drawable/icons8_next_50" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingHorizontal="10dp">
+        <LinearLayout
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@drawable/khung5">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:background="@drawable/khung5"
+                android:paddingHorizontal="19dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:text="Chế độ hỗ trợ nhập liên tục"
+                    android:textSize="16dp"
+                    android:textColor="#FFC107"/>
+
+                <ImageButton
+                    android:layout_width="21dp"
+                    android:layout_height="15dp"
+                    android:layout_marginTop="6dp"
+                    android:backgroundTint="@color/white"
+                    android:src="@drawable/icons8_next_50" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal"
+                android:background="@drawable/khung5"
+                android:paddingHorizontal="19dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:text="Hiển thị số dư đầu kì trên lịch"
+                    android:textSize="16dp"
+                    android:textColor="#FFC107"/>
+
+                <ImageButton
+                    android:layout_width="21dp"
+                    android:layout_height="15dp"
+                    android:layout_marginTop="6dp"
+                    android:backgroundTint="@color/white"
+                    android:src="@drawable/icons8_next_50" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal"
+                android:background="@drawable/khung5"
+                android:paddingHorizontal="19dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:text="Ngày bắt đầu của tháng"
+                    android:textSize="16dp"
+                    android:textColor="#FFC107"/>
+
+                <ImageButton
+                    android:layout_width="21dp"
+                    android:layout_height="15dp"
+                    android:layout_marginTop="6dp"
+                    android:backgroundTint="@color/white"
+                    android:src="@drawable/icons8_next_50" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal"
+                android:background="@drawable/khung5"
+                android:paddingHorizontal="19dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:text="Ngày bắt đầu của năm"
+                    android:textSize="16dp"
+                    android:textColor="#FFC107"/>
+
+                <ImageButton
+                    android:layout_width="21dp"
+                    android:layout_height="15dp"
+                    android:layout_marginTop="6dp"
+                    android:backgroundTint="@color/white"
+                    android:src="@drawable/icons8_next_50" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal"
+                android:background="@drawable/khung5"
+                android:paddingHorizontal="19dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:text="Số tiền trên lịch"
+                    android:textSize="16dp"
+                    android:textColor="#FFC107"/>
+
+                <ImageButton
+                    android:layout_width="21dp"
+                    android:layout_height="15dp"
+                    android:layout_marginTop="6dp"
+                    android:backgroundTint="@color/white"
+                    android:src="@drawable/icons8_next_50" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal"
+                android:background="@drawable/khung5"
+                android:paddingHorizontal="19dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:text="Thứ bắt đầu của lịch"
+                    android:textSize="16dp"
+                    android:textColor="#FFC107"/>
+
+                <ImageButton
+                    android:layout_width="21dp"
+                    android:layout_height="15dp"
+                    android:layout_marginTop="6dp"
+                    android:backgroundTint="@color/white"
+                    android:src="@drawable/icons8_next_50" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal"
+                android:background="@drawable/khung5"
+                android:paddingHorizontal="19dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:text="Thứ tự hiển thị của đồ thị"
+                    android:textSize="16dp"
+                    android:textColor="#FFC107"/>
+
+                <ImageButton
+                    android:layout_width="21dp"
+                    android:layout_height="15dp"
+                    android:layout_marginTop="6dp"
+                    android:backgroundTint="@color/white"
+                    android:src="@drawable/icons8_next_50" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingHorizontal="10dp">
+        <LinearLayout
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@drawable/khung5">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:background="@drawable/khung5"
+                android:paddingHorizontal="19dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:text="Thay đổi ngôn ngữ"
+                    android:textSize="16dp"
+                    android:textColor="#FFC107"/>
+
+                <ImageButton
+                    android:layout_width="21dp"
+                    android:layout_height="15dp"
+                    android:layout_marginTop="6dp"
+                    android:backgroundTint="@color/white"
+                    android:src="@drawable/icons8_next_50" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal"
+                android:background="@drawable/khung5"
+                android:paddingHorizontal="19dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:text="Thay đổi tiền tệ"
+                    android:textSize="16dp"
+                    android:textColor="#FFC107"/>
+
+                <ImageButton
+                    android:layout_width="21dp"
+                    android:layout_height="15dp"
+                    android:layout_marginTop="6dp"
+                    android:backgroundTint="@color/white"
+                    android:src="@drawable/icons8_next_50" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal"
+                android:background="@drawable/khung5"
+                android:paddingHorizontal="19dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:text="Khóa mật mã"
+                    android:textSize="16dp"
+                    android:textColor="#FFC107"/>
+
+                <ImageButton
+                    android:layout_width="21dp"
+                    android:layout_height="15dp"
+                    android:layout_marginTop="6dp"
+                    android:backgroundTint="@color/white"
+                    android:src="@drawable/icons8_next_50" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal"
+                android:background="@drawable/khung5"
+                android:paddingHorizontal="19dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:text="Thông báo nhắc nhở"
+                    android:textSize="16dp"
+                    android:textColor="#FFC107"/>
+
+                <ImageButton
+                    android:layout_width="21dp"
+                    android:layout_height="15dp"
+                    android:layout_marginTop="6dp"
+                    android:backgroundTint="@color/white"
+                    android:src="@drawable/icons8_next_50" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingHorizontal="10dp">
+        <LinearLayout
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@drawable/khung5">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:background="@drawable/khung5"
+                android:paddingHorizontal="19dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:text="Xóa tất cả dữ liệu"
+                    android:textSize="16dp"
+                    android:textColor="#FFC107"/>
+
+                <ImageButton
+                    android:layout_width="21dp"
+                    android:layout_height="15dp"
+                    android:layout_marginTop="6dp"
+                    android:backgroundTint="@color/white"
+                    android:src="@drawable/icons8_next_50" />
+            </LinearLayout>
+
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

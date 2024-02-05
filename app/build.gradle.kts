@@ -3,11 +3,11 @@ plugins {
 }
 
 android {
-    namespace = "fpoly.thanhndph45160.nhom6_quanlithuchi"
+    namespace = "com.example.duanxuong"
     compileSdk = 34
 
     defaultConfig {
-        applicationId = "fpoly.thanhndph45160.nhom6_quanlithuchi"
+        applicationId = "com.example.duanxuong"
         minSdk = 26
         targetSdk = 34
         versionCode = 1

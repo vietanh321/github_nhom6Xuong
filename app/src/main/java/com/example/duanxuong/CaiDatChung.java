@@ -1,14 +1,14 @@
-package fpoly.thanhndph45160.nhom6_quanlithuchi;
+package com.example.duanxuong;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 
-public class MainActivity extends AppCompatActivity {
+public class CaiDatChung extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_cai_dat_chung);
     }
 }
