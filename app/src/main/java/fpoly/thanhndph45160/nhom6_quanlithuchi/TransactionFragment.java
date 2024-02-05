@@ -1,4 +1,4 @@
-package com.sidv.demo;
+package fpoly.thanhndph45160.nhom6_quanlithuchi;
 
 import android.app.AlertDialog;
 import android.content.DialogInterface;
