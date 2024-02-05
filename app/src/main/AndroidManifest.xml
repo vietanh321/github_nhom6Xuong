@@ -10,8 +10,17 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.Nhom6_QuanLiThuChi"
+        android:theme="@style/Theme.DuAnXuong"
         tools:targetApi="31">
+        <activity
+            android:name=".CaiDatChung"
+            android:exported="true" />
+        <activity
+            android:name=".ThuChiCoDinh"
+            android:exported="true" />
+        <activity
+            android:name=".MyAccount"
+            android:exported="true" />
         <activity
             android:name=".MainActivity"
             android:exported="true">
